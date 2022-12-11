@@ -1,0 +1,46 @@
+{
+  "properties": [
+    {
+      "name": "amap.enable",
+      "type": "java.lang.Boolean",
+      "description": "是否启用高德地图API.",
+      "defaultValue": false
+    },
+    {
+      "name": "amap.baseUrl",
+      "type": "java.lang.String",
+      "description": "基础地址.",
+      "defaultValue": ""
+    },
+    {
+      "name": "amap.key",
+      "type": "java.lang.String",
+      "description": "高德地图密钥.",
+      "defaultValue": ""
+    },
+    {
+      "name": "amap.privateKey",
+      "type": "java.lang.String",
+      "description": "高德地图私钥, 用于数字签名, 若不需要数字签名可不填.",
+      "defaultValue": ""
+    },
+    {
+      "name": "amap.digitalSignatureEnable",
+      "type": "java.lang.Boolean",
+      "description": "是否开启数字签名, 如果为true需要配置私钥, 默认为false.",
+      "defaultValue": false
+    },
+    {
+      "name": "amap.connectionTimeout",
+      "type": "java.lang.Long",
+      "description": "连接超时时间, 单位毫秒, 默认15000毫秒.",
+      "defaultValue": 15000
+    },
+    {
+      "name": "amap.readTimeout",
+      "type": "java.lang.Long",
+      "description": "读取超时时间, 单位毫秒, 默认15000毫秒.",
+      "defaultValue": 15000
+    }
+  ]
+}
